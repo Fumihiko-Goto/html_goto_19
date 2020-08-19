@@ -1,0 +1,478 @@
+/* ここから下に記載していく */
+
+
+
+body{
+    color: #222222;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+p{
+    font-size: 16px;
+}
+
+
+
+
+
+/**********************/
+/***** headerエリア *****/
+/**********************/
+
+.header_wrapper{
+    display: flex;
+    font-size: 21px;
+    justify-content: space-between;
+
+    /*高さの真ん中にもってくる*/
+    align-items: center;  
+
+    /*ナビ上下が50pxずつ、フォントが21pxの合計*/
+    height: 121px;  
+}
+
+.site-title{
+    /*高さの真ん中にもってくる*/
+    align-items: center;  
+}
+
+.nav_list{
+    display: flex;
+    margin: 0 50px 0 0;
+}
+
+.nav_item{
+    margin: 0 0 0 50px;
+}
+
+.nav_item>a{
+   color:#222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.box{
+    background-image: url("../img/mainbg.png");
+    background-size: cover;
+    width: 1200px;
+    padding-bottom: 165px;
+}
+
+.box1 p {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 30px;
+    padding-top: 165px;
+}
+.box2 p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}   
+
+
+/**********************/
+/***** Aboutエリア *****/
+/**********************/
+
+.profile{
+    padding: 60px 0;
+}
+
+.profile_wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.profile__title{
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.profile__title2{
+    margin: 0 0 60px;
+    font-size: 18px;
+}
+
+.profile__title3{
+    margin: 0 0 40px;
+    line-height: 1.5;
+}
+
+.profile__title4{
+    margin: 0 0 80px;
+}
+
+.profile__img{
+    width: auto;
+    display: flex;
+    justify-content: ;
+
+}
+
+/**********************/
+/***** Courseエリア*****/
+/**********************/
+
+.course__explanation{
+    line-height: 1.5;
+}
+
+
+.course_wrapper{
+    width: 1200px;
+    text-align: center;
+
+}
+
+.course__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    
+}
+
+.course__explanation1{
+    margin: 0 0 60px;
+    
+}
+
+.course_list{
+    display: flex;
+    
+}
+.course_img{
+    width: 600px;
+    display: block;
+    vertical-align: top;
+}
+
+.course_h3tag{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+
+.course_block{
+    text-align: left;
+    margin: 120px 120px 0 50px;
+
+}
+
+.course_column{
+width: 430px;
+}
+
+.course_block2{
+    display: flex;
+}
+
+.course_block3{
+    text-align: right;
+    padding: 120px 0px 0px 0px;
+    width: 600px;
+}
+
+.course_h3tag2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+
+.course_column2{
+    padding-left: 120px;
+    font-size: 16px;
+    width: 430px;
+    text-align: right;
+    }
+
+.course_img2{
+    width: 600px;
+}
+
+
+.course_list2{
+    display: flex;
+}
+
+.course_img3{
+    width: 600px;
+}
+
+.course_block4{
+    flex-direction: column;
+    text-align: left;
+    margin: 120px auto 0 50px;
+
+}
+
+.course_h3tag3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 40px
+}
+
+
+
+
+/* newsエリア */
+
+
+.news_wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.news_title{
+    margin: 60px 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffd61a;
+}
+
+.news_title2{
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+
+.news__list{
+    margin: auto;
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    width: 960px;
+}
+
+.news_item{
+    width: 300px;
+    padding: 0px 30px 0px 0px;
+        
+}
+
+.news__explanation{
+    line-height: 1.5;
+}
+
+.news_item2{
+    width: 300px;     
+}
+
+.news_item.img{
+    width: 300px;
+}
+
+.news_days{
+    margin: 30px 0 24px;
+
+}
+
+.hover:hover img{
+    transform: scale(1.1);
+    transition-duration: 0.5s;}
+
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: 60px auto;
+
+    /*60の高さにするため、フォント18px分を引くと42になり、 更に上下に割り振ると21・21の値となる*/
+    padding: 21px 0;   
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: hsl(112, 70%, 48%);
+  }
+
+
+
+
+/**********************/
+/***** Accessエリア*****/
+/**********************/
+
+.access_wrapper{
+    width: 1200px;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.access__title{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.access_info{
+    margin: 0 0 60px;
+}
+
+.access_name{
+    padding: 60px 0 30px;
+}
+
+.mgr_70{
+    margin-right: 70px;
+}
+
+.access_company{
+    margin: 0 0 30px;
+}
+
+.mgr_22{
+    margin-right: 22px;
+}
+
+.mgr_90{
+    margin-right: 90px;
+}
+
+.mgr_80{
+    margin-right: 80px;
+}
+
+.access_left{
+    width: 474px;
+    text-align: left;
+    margin: auto;
+}
+
+
+/**********************/
+/**** Contactエリア ****/
+/**********************/
+
+.contact_wrapper{
+    width: 699px;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.contact__title{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 60px 0 30px;
+}
+
+.contact__title2{
+    margin: 0 0 60px;
+}
+
+.contact__title3{
+    margin: 0 0 30px;
+}
+
+.contact__title4{
+    margin: 0 0 70px;
+}
+
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_title{
+    width: 160px;
+    text-align: left;
+    padding: 0 64px 0 16px;
+    margin: 8px 0 8px;
+}
+
+.form_item{
+    width: 451px;
+    text-align: left;
+    padding: 0 0 0 8px;
+    margin: 8px 0 8px;
+}
+
+input.width { width: 300px; }
+
+
+.check_lb{
+    display:block;
+    margin: 0 0 24px;
+}
+
+
+.form-parts{
+    border:solid 1px #c9c9c9;
+    font-size: 16px;
+}
+
+
+
+input[type*="checkbox"]{
+    
+    margin: 0 60px 0 0;
+    width: 25px;
+    height: 14px;
+    box-sizing: border-box;
+
+    /*なぜか効かない…*/
+    outline: none; 
+}
+
+
+.btn2{
+    width: 300px;
+    margin: 60px auto 140px;
+    /*60の高さにするため、フォント18px分を引くと42になり、 更に上下に割り振ると21・21の値となる*/
+    padding: 21px 0;   
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border:none;
+}
+.btn2:hover {
+    background-color: hsl(112, 70%, 48%);
+  }
+
+
+/**********************/
+/**** footerエリア *****/
+/**********************/
+
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color: #fff;
+}
